@@ -1,2 +1,5 @@
-# kparkovs-awesome
-My personal awesome list
+# Parkovs list of awesome
+
+My personal awesome list.
+
+- [JS, Node.js and React](javascript.md)
