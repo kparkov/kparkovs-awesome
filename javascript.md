@@ -1,0 +1,2 @@
+- [immer](https://github.com/mweststrate/immer): immutability in a single function.
+- [lowdb](https://github.com/typicode/lowdb): a lodash-powered json database.
