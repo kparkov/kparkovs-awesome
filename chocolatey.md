@@ -43,6 +43,7 @@ choco install --ignore-checksums spotify
 choco install steam
 choco install discord
 choco install vlc /Language:en
+choco install plexmediaplayer
 
 # Development
 choco install git.install
