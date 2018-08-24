@@ -31,7 +31,7 @@ choco install -y totalcommander /LocalUser /ShellExtension
 # Utilities
 choco install -y dropbox
 choco install -y adobereader
-choco install -y autohotkey.portable
+choco install -y autohotkey
 choco install -y sharex
 
 # Browsers
