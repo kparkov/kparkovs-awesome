@@ -33,6 +33,7 @@ choco install dropbox
 choco install adobereader
 choco install autohotkey
 choco install sharex
+choco install qbittorrent
 
 # Browsers
 choco install firefox
