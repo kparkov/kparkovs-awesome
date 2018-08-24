@@ -24,45 +24,45 @@ choco upgrade chocolatey
 choco feature enable -n allowGlobalConfirmation
 
 # Core
-choco install -y googlechrome
-choco install -y dashlane
-choco install -y totalcommander /LocalUser /ShellExtension
+choco install googlechrome
+choco install dashlane
+choco install totalcommander /LocalUser /ShellExtension
 
 # Utilities
-choco install -y dropbox
-choco install -y adobereader
-choco install -y autohotkey
-choco install -y sharex
+choco install dropbox
+choco install adobereader
+choco install autohotkey
+choco install sharex
 
 # Browsers
-choco install -y firefox
+choco install firefox
 
 # Media
-choco install -y --ignore-checksums spotify
-choco install -y steam
-choco install -y discord
-choco install -y vlc /Language:en
+choco install --ignore-checksums spotify
+choco install steam
+choco install discord
+choco install vlc /Language:en
 
 # Development
-choco install -y git.install
-choco install -y cmder
-choco install -y nodejs.install
-choco install -y python
-choco install -y golang
-choco install -y docker-for-windows
+choco install git.install
+choco install cmder
+choco install nodejs.install
+choco install python
+choco install golang
+choco install docker-for-windows
 
 ## Docker compose may already be included in Docker for Windows
-choco install -y docker-compose
+choco install docker-compose
 
 ## VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
-choco install -y vscode
+choco install vscode
 
 ## Visual Studio 2017 Community - minimal install
 ## https://chocolatey.org/packages/VisualStudio2017Community
-choco install -y visualstudio2017community
+choco install visualstudio2017community
 
 # Database
-choco install -y sql-server-express
-choco install -y sql-server-management-studio
+choco install sql-server-express
+choco install sql-server-management-studio
 ```
