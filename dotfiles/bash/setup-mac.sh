@@ -9,5 +9,6 @@ bash-it enable alias osx
 bash-it enable completion brew
 bash-it enable completion nvm
 
+bash-it enable plugin nvm
 bash-it enable plugin osx
 bash-it enable plugin sshagent

@@ -41,6 +41,5 @@ bash-it enable plugin docker
 bash-it enable plugin docker-compose
 bash-it enable plugin git
 bash-it enable plugin node
-bash-it enable plugin nvm
 bash-it enable plugin ssh
 bash-it enable plugin visual-studio-code
