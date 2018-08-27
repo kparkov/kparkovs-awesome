@@ -32,6 +32,7 @@ choco install totalcommander /LocalUser /ShellExtension
 choco install dropbox
 choco install adobereader
 choco install autohotkey
+choco install google-backup-and-sync
 choco install sharex
 choco install qbittorrent
 
