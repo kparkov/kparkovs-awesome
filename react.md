@@ -9,6 +9,12 @@ npm install -g create-react-app
 create-react-app my-app --scripts-version=react-scripts-ts
 ```
 
+Or, with npx:
+
+```
+npx create-react-app my-app --scripts-version=react-scripts-ts
+```
+
 The only modification used in my last project of this initial setup is some [lint settings](https://gist.github.com/kparkov/f88d86e4fbbb945a970d4425986ccf50) that annoyed me.
 
 ## Router
