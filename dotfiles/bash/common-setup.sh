@@ -22,7 +22,7 @@ git pull
 ./install.sh
 
 echo "Sourcing .bashrc, which may cause errors."
-source ~/.bashrc < <(echo anything)
+source ~/.bashrc
 
 echo "Setting up bash-it."
 
