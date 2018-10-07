@@ -29,7 +29,7 @@ choco install dashlane
 choco install totalcommander /LocalUser /ShellExtension
 
 # Utilities
-choco install dropbox
+choco install adobe-creative-cloud
 choco install adobereader
 choco install autohotkey
 choco install google-backup-and-sync
