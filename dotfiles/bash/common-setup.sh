@@ -54,3 +54,6 @@ echo "Ensuring that ~/.environment exists and is sourced in .bashrc. Use this fi
 touch ~/.environment
 
 echo 'source ~/.environment' >> ~/.bashrc
+
+echo "Adding the editenv alias (open .environment in VS Code) to .bashrc."
+echo 'alias editenv="code ~/.environment && source ~/.environment"' >> ~/.bashrc
