@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export MSYS_NO_PATHCONV=1 # to make sure volumes are not misinterpreted in Windows Git Bash and docker
-
 ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 SRCDIR=$ROOTDIR/bash
 
