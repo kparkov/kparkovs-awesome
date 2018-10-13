@@ -12,3 +12,4 @@ bash-it disable plugin alias-completion
 echo "Setup the ssh agent initializer in .bashrc."
 
 cat $ROOTDIR/ssh-agent.include.bashrc >> ~/.bashrc
+cat $ROOTDIR/disable-git-info.include.bashrc >> ~/.bashrc
