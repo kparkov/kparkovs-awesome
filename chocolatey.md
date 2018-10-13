@@ -25,8 +25,13 @@ choco feature enable -n allowGlobalConfirmation
 
 # Core
 choco install googlechrome
+choco install git.install
 choco install dashlane
 choco install totalcommander /LocalUser /ShellExtension
+
+# VS Code
+## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
+choco install vscode
 
 # Utilities
 choco install adobe-creative-cloud
@@ -47,7 +52,7 @@ choco install vlc /Language:en
 choco install plexmediaplayer
 
 # Development
-choco install git.install
+
 choco install cmder
 choco install nodejs.install
 choco install python
@@ -56,10 +61,6 @@ choco install docker-for-windows
 
 ## Docker compose may already be included in Docker for Windows
 choco install docker-compose
-
-## VS Code
-## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
-choco install vscode
 
 ## Visual Studio 2017 Community - minimal install
 ## https://chocolatey.org/packages/VisualStudio2017Community
