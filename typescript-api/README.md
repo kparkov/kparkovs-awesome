@@ -1,5 +1,7 @@
 ## Create a TypeScript / Jest / Nodemon / express project
 
+This is a updated and personalized version of the how-to article "[How to get auto restart and breakpoint support with Typescript and Node](https://medium.com/aherforth/how-to-get-auto-restart-and-breakpoint-support-with-typescript-and-node-5af589dd8687)".
+
 ```bash
 git init
 npm init
@@ -20,7 +22,7 @@ yarn add --dev typescript
 .env
 
 # Compiled TypeScript
-./dist
+./build
 
 # Yarn
 .yarn-integrity
@@ -71,6 +73,8 @@ node_modules/
 ```
 
 ## Add express
+
+_You could easily skip this entire section if you are not creating a web project._
 
 Add express and typings.
 
@@ -187,6 +191,8 @@ yarn add --dev nodemon ts-node
 
 #### Add ./.vscode/launch.json
 
+_The debugger always runs on port 9229 per standard._
+
 ```json
 {
     "version": "0.2.0",
@@ -201,4 +207,29 @@ yarn add --dev nodemon ts-node
 }
 ```
 
-The debugger always runs on port 9229 per standard.
+## Add tslint
+
+```
+npm i -g tslint
+yarn add --dev tslint
+```
+
+Add a configuration:
+
+```
+tslint --init
+```
+
+#### Modify ./tslint.json
+
+_For node, it is generally preferable to allow `console.log`, so we should do:_
+
+```json
+{
+    ...,
+    "rules": {
+        "no-console": false
+    },
+    ...
+}
+```
