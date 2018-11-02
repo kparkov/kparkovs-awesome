@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Performs a Windows-specific install. Calls the common-setup file and
+
 ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 echo "Windows setup, running common setup first."

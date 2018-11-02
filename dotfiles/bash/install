@@ -1,14 +1,14 @@
 #!/bin/bash
 
 ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
-SRCDIR=$ROOTDIR/bash
+SRCDIR=$ROOTDIR
 
 command="${1: }"
 arguments="${@:2}"
 
 help() {
     echo -e "
-    dotfiles installation ❤️
+    bash dotfiles installation ❤️
 
     Usage: ./install.sh <os>
 
