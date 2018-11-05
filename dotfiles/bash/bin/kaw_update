@@ -3,7 +3,8 @@
 OS="$1"
 GITREPO="https://github.com/kparkov/kparkovs-awesome.git"
 LOCALTEMP="${TMPDIR}/kparkovs-awesome"
-INSTALLBINDIR"${LOCALTEMP}/dotfiles/"
+
+rm -rf $LOCALTEMP &> /dev/null
 
 if [[ "$OS" != "win" && "$OS" != "mac" ]]; then
     echo "Please supply OS to update (win or mac)."
@@ -16,4 +17,4 @@ if [ ! -d "$TMPDIR" ]; then
 fi
 
 git clone $GITREPO $LOCALTEMP
-cd $INSTALLBINDIR && ./install $OS
+cd $LOCALTEMP/dotfiles/ && ./install $OS
