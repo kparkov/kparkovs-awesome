@@ -4,24 +4,22 @@ ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 echo "Installing bash-it."
 
-if [ -f ~/.bashrc ]; then
-    mv ~/.bashrc ~/.bashrc_backup
-    echo "Old .bashrc saved as ~/.bashrc_backup."
-fi
+rm ~/.bashrc &> /dev/null
+rm ~/.bash_profile &> /dev/null
+
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it 2> /dev/null
+cd ~/.bash_it
+git pull &> /dev/null
+
+./install.sh --silent
 
 if [ -f ~/.bash_profile ]; then
-    mv ~/.bash_profile ~/.bash_profile_backup
-    echo "Old .bash_profile saved as ~/.bash_profile."
-    cp $ROOTDIR/.bash_profile ~/
+    mv ~/.bash_profile ~/.bashrc
 fi
 
-git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-cd ~/.bash_it
-git pull
+cp $ROOTDIR/.bash_profile ~/
 
-./install.sh
-
-echo "Sourcing .bashrc, which may cause errors."
+echo "Sourcing the new file."
 source ~/.bashrc
 
 echo "Setting up bash-it."
@@ -49,16 +47,16 @@ bash-it enable plugin node
 bash-it enable plugin ssh
 bash-it enable plugin visual-studio-code
 
-echo "Ensuring that ~/.environment exists and is sourced in .bashrc. Use this file to insert your machine specific details."
-
-touch ~/.environment
-
-echo 'source ~/.environment' >> ~/.bashrc
-
-echo "Adding the editenv alias (open .environment in VS Code) to .bashrc."
+echo "Adding the editenv alias (open .environment in VS Code) to ~/.bashrc"
 echo 'alias editenv="code ~/.environment && source ~/.environment"' >> ~/.bashrc
 
 # Set a variable that can be checked to see if ~/.bashrc already ran
 echo 'export DOTFILES_INIT=true' >> ~/.bashrc
 
-cd $ROOTDIR && ./bin-install
+echo 'echo ".bashrc ✓"' >> ~/.bashrc
+
+echo "Ensuring that ~/.environment exists and is sourced in .bashrc. Use this file to insert your machine specific details."
+touch ~/.environment
+echo 'source ~/.environment' >> ~/.bashrc
+
+source $ROOTDIR/bin-install

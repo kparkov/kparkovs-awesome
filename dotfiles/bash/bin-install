@@ -17,4 +17,5 @@ mkdir -p $DEST
 
 cp -rv $SRC/* $DEST/
 
+echo "Adding bin PATH to ~/.bashrc"
 echo 'PATH="${PATH}:~/bin"' >> ~/.bashrc

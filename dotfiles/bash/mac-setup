@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./common-setup
+ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+source $ROOTDIR/common-setup
 
 bash-it enable alias homebrew
 bash-it enable alias homebrew-cask
@@ -11,4 +12,7 @@ bash-it enable completion nvm
 
 bash-it enable plugin nvm
 bash-it enable plugin osx
-bash-it enable plugin sshagent
+
+bash-it disable plugin sshagent
+
+source ~/.bashrc
