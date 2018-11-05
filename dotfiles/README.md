@@ -6,7 +6,7 @@ dotfiles are local machine settings and configuration files. Right now, this is 
 
 Make sure that you have `git` installed (git bash on Windows) before running this install.
 
-This will initialize a [bash-it](https://github.com/Bash-it/bash-it) environment. It is designed for idempotency, so you can run it each time you want to update it.
+It is designed for idempotency, so you can run it each time you want to update it.
 
 To install in git bash, run
 
@@ -14,7 +14,7 @@ To install in git bash, run
 ./install win
 ```
 
-This has not yet been tested on Mac, and should be tested thoroughly before using.
+**This has not yet been tested on Mac, and should be tested thoroughly before using**.
 
 ## Resources
 

@@ -1,16 +1,16 @@
 #!/bin/bash
 
 ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
-SRCDIR=$ROOTDIR
+BASHDIR=$ROOTDIR/bash
 
 command="${1: }"
 arguments="${@:2}"
 
 help() {
     echo -e "
-    bash dotfiles installation ❤️
+    dotfiles installation
 
-    Usage: ./install.sh <os>
+    Usage: ./install <os>
 
     os:
       win             Git bash in Windows
@@ -32,10 +32,10 @@ case ${command} in
         help
         ;;
     win)
-        cd $SRCDIR && ./win-setup.sh $arguments
+        cd $BASHDIR && ./win-setup $arguments
         ;;
     mac)
-        cd $SRCDIR && ./mac-setup.sh $arguments
+        cd $BASHDIR && ./mac-setup $arguments
         ;;
     *)
         echo ""

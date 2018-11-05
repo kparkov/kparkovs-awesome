@@ -57,3 +57,8 @@ echo 'source ~/.environment' >> ~/.bashrc
 
 echo "Adding the editenv alias (open .environment in VS Code) to .bashrc."
 echo 'alias editenv="code ~/.environment && source ~/.environment"' >> ~/.bashrc
+
+# Set a variable that can be checked to see if ~/.bashrc already ran
+echo 'export DOTFILES_INIT=true' >> ~/.bashrc
+
+cd $ROOTDIR && ./bin-install
