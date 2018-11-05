@@ -14,7 +14,11 @@ To install in git bash, run
 ./install win
 ```
 
-**This has not yet been tested on Mac, and should be tested thoroughly before using**.
+To install on MacOS, run
+
+```bash
+./install mac
+```
 
 ## Resources
 
