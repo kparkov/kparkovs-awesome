@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ROOTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+THEME="pure"
 
 echo "Installing bash-it."
 
@@ -18,6 +19,9 @@ if [ -f ~/.bash_profile ]; then
 fi
 
 cp $ROOTDIR/.bash_profile ~/
+
+sed -i.backup 's/bobby/pure/' ~/.bashrc
+rm ~/.bashrc.backup &> /dev/null
 
 echo "Sourcing the new file."
 source ~/.bashrc
