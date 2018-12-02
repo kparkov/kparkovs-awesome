@@ -10,3 +10,7 @@
 - [My name is Krisztina](http://krisztinatoth.com/)
 - [Pure CSS moustached nanny](https://codepen.io/miocene/pen/mjLPVp)
 - [https://twitter.com/BeresnevOleg](https://twitter.com/BeresnevOleg)
+
+## Fonts
+
+- [Work Sans](https://fonts.google.com/specimen/Work+Sans?authuser=0)
