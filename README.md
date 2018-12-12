@@ -1,6 +1,4 @@
-# Parkovs list of awesome
-
-My personal awesome list.
+My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) list, dotfiles setup and general guides.
 
 ## Machine setup
 
@@ -14,5 +12,6 @@ My personal awesome list.
 
 ## Programming resources
 
-- [JS, Node.js and React](javascript/README.md)
+- [.NET](csharp/README.md)
+- [TS/JS, Node.js and React](javascript/README.md)
 - [Web design](design/README.md)

@@ -30,7 +30,7 @@
 
 ## React
 
-But also see the [Kickstart React with TypeScript](react.md) guide.
+But also see the [Kickstart React with TypeScript](howto-typescript-react.md) guide.
 
 - [React](https://reactjs.org/): frontend framework.
 - [React Router](https://reacttraining.com/react-router/): A router for React.
