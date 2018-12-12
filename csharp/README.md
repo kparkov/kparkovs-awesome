@@ -1,5 +1,7 @@
 # C#
 
+Also see the official awesome for [.NET](https://github.com/quozd/awesome-dotnet#readme) and [.NET Core](https://github.com/thangchung/awesome-dotnet-core#readme).
+
 ## Database
 
 - [Dapper](https://dapper-tutorial.net/dapper): Light weight ORM

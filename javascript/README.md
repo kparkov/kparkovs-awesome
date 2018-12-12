@@ -1,5 +1,7 @@
 # JavaScript
 
+Also see the official awesome for [Node.js](https://github.com/sindresorhus/awesome-nodejs#readme), [JavaScript](https://github.com/sorrycc/awesome-javascript#readme) and [React](https://github.com/enaqx/awesome-react#readme).
+
 ## Utility
 
 - [lodash](https://www.npmjs.com/package/lodash): utility library.
@@ -35,6 +37,10 @@ But also see the [Kickstart React with TypeScript](howto-typescript-react.md) gu
 - [React](https://reactjs.org/): frontend framework.
 - [React Router](https://reacttraining.com/react-router/): A router for React.
 - [React Helmet](https://github.com/nfl/react-helmet): document head manager for React.
+
+## Vue.js
+
+But also see the [Kickstart Vue project with Bootstrap and TypeScript](howto-typescript-bootstrap-vue.md).
 
 ## TypeScript-specific
 
