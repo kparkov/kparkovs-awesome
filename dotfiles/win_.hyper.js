@@ -1,4 +1,4 @@
-// Future versions of Hyper may add additional config options,
+﻿// Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
@@ -104,6 +104,7 @@ module.exports = {
     shellArgs: ['--login'],
 
     // for environment variables
+    // TERM: 'cygwin' added to fix a problem in Windows, where nano and vi did not work correctly.
     env: { TERM: 'cygwin' },
 
     // set to `false` for no bell
