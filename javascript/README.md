@@ -21,6 +21,10 @@ Also see the official awesome for [Node.js](https://github.com/sindresorhus/awes
 - [socket.io](https://socket.io/): socket-based communication.
 - [pug](https://pugjs.org/) (formerly jade): templating engine.
 
+## Media
+
+- [sharp](https://github.com/lovell/sharp/blob/master/README.md): image conversion / resizing.
+
 ## CLI tools
 
 - [yargs](https://www.npmjs.com/package/yargs): parse command-line options.
