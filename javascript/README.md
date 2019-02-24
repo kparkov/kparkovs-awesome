@@ -46,6 +46,14 @@ But also see the [Kickstart React with TypeScript](howto-typescript-react.md) gu
 
 But also see the [Kickstart Vue project with Bootstrap and TypeScript](howto-typescript-bootstrap-vue.md).
 
+- [Vue](https://vuejs.org/v2/guide/#Getting-Started): frontend framework.
+- [Vue Router](https://router.vuejs.org/): Client side routing.
+- [Vue Router Multiguard](https://github.com/atanas-angelov-dev/vue-router-multiguard): Combine router guards.
+- [Vuex](https://vuex.vuejs.org/): State management.
+- [Vue Highlight JS](https://www.npmjs.com/package/vue-highlightjs): Syntax highlighting for Vue.
+- [Vue Upload Component](https://lian-yue.github.io/vue-upload-component/#/): Upload component.
+- [Vue SVG loader](https://vue-svg-loader.js.org/): SVG to Vue components.
+
 ## TypeScript-specific
 
 - [TypeScript-React-Starter](https://github.com/Microsoft/TypeScript-React-Starter): The TypeScript version of `react-create-app`. Only personal modification is some [lint settings](https://gist.github.com/kparkov/f88d86e4fbbb945a970d4425986ccf50).
