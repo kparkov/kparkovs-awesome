@@ -13,5 +13,5 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 ## Programming resources
 
 - [.NET](csharp/README.md)
-- [TS/JS, Node.js and React](javascript/README.md)
+- [TS/JS, Node.js, React and Vue](javascript/README.md)
 - [Web design](design/README.md)
