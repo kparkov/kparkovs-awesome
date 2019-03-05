@@ -42,6 +42,7 @@ choco install autohotkey
 choco install google-backup-and-sync
 choco install sharex
 choco install qbittorrent
+choco install magicavoxel
 
 # Browsers
 choco install firefox
