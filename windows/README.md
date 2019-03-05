@@ -60,7 +60,7 @@ choco install cmder
 choco install nodejs.install
 choco install python
 choco install golang
-choco install docker-for-windows
+choco install docker-desktop
 
 ## Docker compose may already be included in Docker for Windows
 choco install docker-compose
