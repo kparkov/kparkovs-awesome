@@ -27,7 +27,7 @@ choco feature enable -n allowGlobalConfirmation
 
 # Core
 choco install googlechrome
-choco install git.install
+choco install git.install --params "/NoAutoCrlf"
 choco install dashlane
 choco install totalcommander /LocalUser /ShellExtension
 
