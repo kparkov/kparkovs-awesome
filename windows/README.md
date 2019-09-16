@@ -30,6 +30,7 @@ choco install googlechrome
 choco install git.install --params "/NoAutoCrlf"
 choco install dashlane
 choco install totalcommander /LocalUser /ShellExtension
+choco install microsoft-windows-terminal
 
 # VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
