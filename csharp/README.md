@@ -12,7 +12,6 @@ Also see the official awesome for [.NET](https://github.com/quozd/awesome-dotnet
 
 - [Nodatime](https://nodatime.org/): Alternative DateTime for when you need to work with timezones, etc.
 - [Humanizer](https://github.com/Humanizr/Humanizer): Human-friendly presentation of quantities such as dates and times.
-- [FluentValidation](https://github.com/JeremySkinner/FluentValidation): Validation library.
 - [AutoMapper](https://www.nuget.org/packages/AutoMapper/): Automatic object-object mapping.
 - [MoreLinq](https://github.com/morelinq/MoreLINQ): The missing features in Linq.
 - [ComparerExtensions](https://github.com/jehugaleahsa/ComparerExtensions/blob/master/README.md): Build IComparers using Linq syntax.
@@ -21,6 +20,7 @@ Also see the official awesome for [.NET](https://github.com/quozd/awesome-dotnet
 
 - [Fluent Assertions](https://fluentassertions.com/): a collection of extension methods for fluent unit test assertions.
 - [NSubstitute](http://nsubstitute.github.io/): Mock classes for unit testing
+- [FluentValidation](https://github.com/JeremySkinner/FluentValidation): Validation library.
 - [Autofac](https://github.com/autofac/Autofac): Dependency Injection framework.
 
 ## Formats
