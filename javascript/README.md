@@ -8,6 +8,7 @@ Also see the official awesome for [Node.js](https://github.com/sindresorhus/awes
 - [moment.js](https://momentjs.com/): date parsing, formatting and manipulation.
 - [math.js](http://mathjs.org/): math library.
 - [immer](https://github.com/mweststrate/immer): immutability in a single function.
+- [flat](https://www.npmjs.com/package/flat): flatten an object tree to path keys (also contains an unflatten function for reversal).
 
 ## Data
 
