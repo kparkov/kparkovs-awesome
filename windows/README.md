@@ -70,6 +70,9 @@ choco install docker-compose
 ## https://chocolatey.org/packages/VisualStudio2017Community
 choco install visualstudio2017community
 
+choco install visualstudio2019professional
+choco install visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive"
+
 # Database
 choco install sql-server-express
 choco install sql-server-management-studio
