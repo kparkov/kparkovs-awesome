@@ -64,7 +64,7 @@ choco install plexmediaplayer
 # Development
 
 choco install cmder
-choco install nodejs
+choco install nodejs           # Skip if you install VS, which includes this
 choco install python
 choco install golang
 choco install docker-desktop
