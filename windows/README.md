@@ -2,8 +2,6 @@
 
 The package manager for Windows. How to get up and running with Chocolatey.
 
-**A full run has not been tested. Run step by step on new install.**
-
 ## Install Chocolatey
 
 Go into an elevated PS prompt and run:
