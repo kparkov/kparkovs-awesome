@@ -80,4 +80,7 @@ choco install IIS-WebServerRole IIS-ISAPIFilter IIS-ISAPIExtensions IIS-NetFxExt
 choco install sql-server-express
 choco install sql-server-management-studio
 choco install azure-data-studio
+
+## Fonts
+choco install firacode
 ```
