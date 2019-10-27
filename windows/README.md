@@ -70,4 +70,5 @@ choco install visualstudio2017community
 # Database
 choco install sql-server-express
 choco install sql-server-management-studio
+choco install azure-data-studio
 ```
