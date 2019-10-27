@@ -76,7 +76,7 @@ choco install docker-compose
 ## https://chocolatey.org/packages/VisualStudio2017Community
 choco install visualstudio2017community
 
-choco install visualstudio2019professional
+## Full 2019 professional with all features
 choco install visualstudio2019professional --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive"
 
 ## IIS (Internet Information Services)
