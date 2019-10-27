@@ -30,7 +30,7 @@ choco install microsoft-windows-terminal
 choco install dashlane
 choco install firefox
 choco install googlechrome
-choco install git.install --params "/NoAutoCrlf"
+choco install git
 choco install totalcommander /LocalUser /ShellExtension
 
 
