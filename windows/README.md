@@ -25,6 +25,9 @@ choco upgrade chocolatey
 # Global confirmation
 choco feature enable -n allowGlobalConfirmation
 
+# Drivers
+choco install geforce-experience
+
 # Core
 choco install microsoft-windows-terminal
 choco install dashlane
@@ -46,10 +49,10 @@ choco install qbittorrent
 choco install magicavoxel
 
 # Media
-choco install --ignore-checksums spotify
+choco install spotify
 choco install steam
 choco install discord
-choco install vlc /Language:en
+choco install vlc
 choco install plexmediaplayer
 
 # Development
