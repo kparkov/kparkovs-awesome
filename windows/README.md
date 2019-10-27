@@ -48,7 +48,7 @@ choco install totalcommander /LocalUser /ShellExtension
 choco install vscode
 
 # Utilities
-choco install adobe-creative-cloud
+choco install adobe-creative-cloud       # Did not work last time (2019-10-27)
 choco install google-backup-and-sync
 choco install sharex
 choco install qbittorrent
