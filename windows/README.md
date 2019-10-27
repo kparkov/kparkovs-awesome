@@ -40,8 +40,6 @@ choco install vscode
 
 # Utilities
 choco install adobe-creative-cloud
-choco install adobereader
-choco install autohotkey
 choco install google-backup-and-sync
 choco install sharex
 choco install qbittorrent
