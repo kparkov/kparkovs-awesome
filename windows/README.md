@@ -23,7 +23,6 @@ choco upgrade chocolatey
 ```
 
 ## Software installs with Chocolatey
-
 ```powershell
 
 # Global confirmation
@@ -39,7 +38,6 @@ choco install firefox
 choco install googlechrome
 choco install git
 choco install totalcommander /LocalUser /ShellExtension
-
 
 # VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
@@ -60,7 +58,6 @@ choco install vlc
 choco install plexmediaplayer
 
 # Development
-
 choco install cmder
 choco install nodejs           # Skip if you install VS, which includes this
 choco install python
