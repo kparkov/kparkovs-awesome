@@ -47,9 +47,6 @@ choco install sharex
 choco install qbittorrent
 choco install magicavoxel
 
-# Browsers
-choco install firefox
-
 # Media
 choco install --ignore-checksums spotify
 choco install steam
