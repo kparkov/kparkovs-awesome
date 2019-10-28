@@ -27,29 +27,40 @@ choco upgrade chocolatey
 
 # Global confirmation
 choco feature enable -n allowGlobalConfirmation
-Install-Module -Name Invoke-MsBuild
 
 # Drivers
 choco install geforce-experience
+
+# Git
+choco install git
+
+# [Posh git](https://github.com/dahlbyk/posh-git))
+## Restart and make sure git is in path before doing:
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force
+
+## If AllowPrerelease parameter is not recognized, try the above again after doing:
+Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber
+
+## To load the profile in all sessions
+Add-PoshGitToProfile -AllHosts
 
 # Core
 choco install microsoft-windows-terminal
 choco install dashlane
 choco install firefox
 choco install googlechrome
-choco install git
 choco install totalcommander /LocalUser /ShellExtension
+choco install nordvpn
 choco install cryptomator
 choco install hwmonitor
 choco install hdtune
-choco install nordvpn
 
 # VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
 choco install vscode
 
 # Utilities
-choco install adobe-creative-cloud       # Did not work last time (2019-10-27)
+choco install adobe-creative-cloud       # Did not work on last install (2019-10-27)
 choco install google-backup-and-sync
 choco install sharex
 choco install qbittorrent
@@ -81,6 +92,9 @@ choco install visualstudio2019professional --package-parameters "--allWorkloads 
 
 ## IIS (Internet Information Services)
 choco install IIS-WebServerRole IIS-ISAPIFilter IIS-ISAPIExtensions IIS-NetFxExtensibility IIS-ASPNET --source WindowsFeatures
+
+## Build older .NET via Powershell script
+Install-Module -Name Invoke-MsBuild
 
 # Database
 choco install sql-server-express
