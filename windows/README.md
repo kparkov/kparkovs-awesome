@@ -42,6 +42,7 @@ choco install totalcommander /LocalUser /ShellExtension
 choco install cryptomator
 choco install hwmonitor
 choco install hdtune
+choco install nordvpn
 
 # VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
