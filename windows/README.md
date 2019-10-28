@@ -38,6 +38,7 @@ choco install firefox
 choco install googlechrome
 choco install git
 choco install totalcommander /LocalUser /ShellExtension
+choco install cryptomator
 
 # VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
