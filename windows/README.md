@@ -27,6 +27,7 @@ choco upgrade chocolatey
 
 # Global confirmation
 choco feature enable -n allowGlobalConfirmation
+Install-Module -Name Invoke-MsBuild
 
 # Drivers
 choco install geforce-experience
