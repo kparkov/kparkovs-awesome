@@ -67,6 +67,7 @@ choco install qbittorrent
 choco install magicavoxel
 
 # Media
+choco install sonos-controller
 choco install spotify
 choco install steam
 choco install discord
