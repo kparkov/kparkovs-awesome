@@ -66,6 +66,7 @@ choco install sharex
 choco install qbittorrent
 choco install magicavoxel
 choco install notion
+choco install microsoft-teams
 
 # Media
 choco install sonos-controller
