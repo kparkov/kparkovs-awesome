@@ -1,6 +1,6 @@
-# Chocolatey
+# Windows setup
 
-The package manager for Windows. How to get up and running with Chocolatey.
+This install procedure has been tested on Microsoft Windows 10.
 
 ## Install Chocolatey
 
@@ -22,9 +22,8 @@ You should probably open a new shell at this point to make sure that `choco` is 
 choco upgrade chocolatey
 ```
 
-## Software installs with Chocolatey
+### Software installs with Chocolatey
 ```powershell
-
 # Global confirmation
 choco feature enable -n allowGlobalConfirmation
 
@@ -75,15 +74,15 @@ choco install steam
 choco install discord
 choco install vlc
 choco install plexmediaplayer
+choco install plexmediaserver
 
 # Development
 choco install nodejs           # Skip if you install VS, which includes this
 choco install python
 choco install golang
-choco install docker-desktop
 
-## Docker compose may already be included in Docker for Windows
-choco install docker-compose
+choco install docker-desktop
+choco install docker-compose   # Test if available before installing!
 
 ## Visual Studio 2017 Community - minimal install
 ## https://chocolatey.org/packages/VisualStudio2017Community
@@ -99,10 +98,28 @@ choco install IIS-WebServerRole IIS-ISAPIFilter IIS-ISAPIExtensions IIS-NetFxExt
 Install-Module -Name Invoke-MsBuild
 
 # Database
-choco install sql-server-express
-choco install sql-server-management-studio
+choco install sql-server-express               # Consider outdated?
+choco install sql-server-management-studio     # Consider outdated?
 choco install azure-data-studio
 
 ## Fonts
 choco install firacode
 ```
+
+## SMB shares
+
+To create a new SMB share with full rights to everyone, use **an elevated PS prompt**:
+
+```powershell
+# https://sid-500.com/2017/06/26/powershell-how-to-create-file-shares/
+New-SmbShare -Name Media -Path D:\Public\Media
+Grant-SmbShareAccess -Name Media -AccountName Everyone -AccessRight Full -Force
+```
+
+To remove the share, use:
+
+```powershell
+Remove-SmbShare -Name Media -Force
+```
+
+The `-Force` flag is to prevent user confirmation prompts.
