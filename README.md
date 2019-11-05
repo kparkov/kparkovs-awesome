@@ -2,7 +2,6 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 
 ## Machine setup
 
-- [dotfiles setup (bash)](dotfiles/README.md)
 - [Windows setup](windows/README.md)
 - [MacOS setup](macos/README.md)
 
