@@ -52,4 +52,5 @@ brew cask install virtualbox
 brew cask install nightowl
 brew cask install notion
 brew cask install azure-data-studio
+brew cask install microsoft-teams
 ```
