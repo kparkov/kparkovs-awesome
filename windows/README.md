@@ -43,6 +43,9 @@ Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber
 ## To load the profile in all sessions
 Add-PoshGitToProfile -AllHosts
 
+# [ZLocation](https://github.com/vors/ZLocation)
+Install-Module ZLocation -Scope CurrentUser
+
 # Core
 choco install microsoft-windows-terminal
 choco install dashlane
