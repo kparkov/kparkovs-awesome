@@ -4,6 +4,7 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 
 - [dotfiles setup (bash)](dotfiles/README.md)
 - [Windows setup](windows/README.md)
+- [MacOS setup](macos/README.md)
 
 ## Awesome software
 
@@ -19,3 +20,6 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 - [.NET](csharp/README.md)
 - [TS/JS, Node.js, React and Vue](javascript/README.md)
 - [Web design](design/README.md)
+
+## Old (to be fixed)
+- [dotfiles setup (bash)](dotfiles/README.md)
