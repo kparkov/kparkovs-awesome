@@ -2,23 +2,12 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 
 ## Machine setup
 
-- [Windows setup](windows/README.md)
-- [MacOS setup](macos/README.md)
+- [Windows setup](development/windows/README.md)
+- [MacOS setup](development/macos/README.md)
 
-## Awesome software
+## Programming resources and modules / packages
 
-- [General software](software.md)
-
-## How-tos
-
-- [Kickstart React with TypeScript](javascript/howto-typescript-react.md)
-- [Kickstart TS / Jest / nodemon / express](javascript/howto-typescript-api.md)
-
-## Programming resources
-
-- [.NET](csharp/README.md)
-- [TS/JS, Node.js, React and Vue](javascript/README.md)
-- [Web design](design/README.md)
-
-## Old (to be fixed)
-- [dotfiles setup (bash)](dotfiles/README.md)
+- [Websites](development/websites/README.md): design and development of websites.
+- [.NET](development/csharp/README.md): C# and other .NET.
+- [TS/JS, Node.js, React and Vue](development/javascript/README.md): JS and all its derivatives.
+- [Shell scripting (bash and Powershell)](development/shell/README.md): shell awesomeness.

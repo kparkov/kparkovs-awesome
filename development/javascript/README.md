@@ -2,7 +2,14 @@
 
 Also see the official awesome for [Node.js](https://github.com/sindresorhus/awesome-nodejs#readme), [JavaScript](https://github.com/sorrycc/awesome-javascript#readme) and [React](https://github.com/enaqx/awesome-react#readme).
 
-## Utility
+## How-tos
+
+- [Kickstart React with TypeScript](development/javascript/howto-typescript-react.md)
+- [Kickstart TS / Jest / nodemon / express](development/javascript/howto-typescript-api.md)
+
+## NPM modules
+
+### Utility
 
 - [lodash](https://www.npmjs.com/package/lodash): utility library.
 - [moment.js](https://momentjs.com/): date parsing, formatting and manipulation.
@@ -10,23 +17,23 @@ Also see the official awesome for [Node.js](https://github.com/sindresorhus/awes
 - [immer](https://github.com/mweststrate/immer): immutability in a single function.
 - [flat](https://www.npmjs.com/package/flat): flatten an object tree to path keys (also contains an unflatten function for reversal).
 
-## Data
+### Data
 
 - [lowdb](https://github.com/typicode/lowdb): a lodash-powered json database.
 - [mongoose](https://mongoosejs.com/): ORM over mongo.
 - [knex](https://knexjs.org/): SQL query builder and ORM alternative.
 
-## Web
+### Web
 
 - [express.js](https://expressjs.com/): web server.
 - [socket.io](https://socket.io/): socket-based communication.
 - [pug](https://pugjs.org/) (formerly jade): templating engine.
 
-## Media
+### Media
 
 - [sharp](https://github.com/lovell/sharp/blob/master/README.md): image conversion / resizing.
 
-## CLI tools
+### CLI tools
 
 - [yargs](https://www.npmjs.com/package/yargs): parse command-line options.
 - [commander](https://www.npmjs.com/package/commander): full command-line.
@@ -35,7 +42,7 @@ Also see the official awesome for [Node.js](https://github.com/sindresorhus/awes
 - [colors](https://github.com/Marak/colors.js): colored CLI output.
 - [shelljs](http://documentup.com/shelljs/shelljs): UNIX shell commands for Node.js
 
-## React
+### React
 
 But also see the [Kickstart React with TypeScript](howto-typescript-react.md) guide.
 
@@ -43,7 +50,7 @@ But also see the [Kickstart React with TypeScript](howto-typescript-react.md) gu
 - [React Router](https://reacttraining.com/react-router/): A router for React.
 - [React Helmet](https://github.com/nfl/react-helmet): document head manager for React.
 
-## Vue.js
+### Vue.js
 
 But also see the [Kickstart Vue project with Bootstrap and TypeScript](howto-typescript-bootstrap-vue.md).
 
@@ -55,6 +62,7 @@ But also see the [Kickstart Vue project with Bootstrap and TypeScript](howto-typ
 - [Vue Upload Component](https://lian-yue.github.io/vue-upload-component/#/): Upload component.
 - [Vue SVG loader](https://vue-svg-loader.js.org/): SVG to Vue components.
 
-## TypeScript-specific
+## Code examples
 
-- [TypeScript-React-Starter](https://github.com/Microsoft/TypeScript-React-Starter): The TypeScript version of `react-create-app`. Only personal modification is some [lint settings](https://gist.github.com/kparkov/f88d86e4fbbb945a970d4425986ccf50).
+- [Luhn credit card validation](https://jsbin.com/siyatelayo/edit?html,js,console)
+- [EAN validation](https://jsbin.com/hepaqu/edit?js,console)
