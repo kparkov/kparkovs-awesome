@@ -124,16 +124,7 @@ To create a new SMB share with full rights to everyone, use **an elevated PS pro
 ```powershell
 # https://sid-500.com/2017/06/26/powershell-how-to-create-file-shares/
 New-SmbShare -Name Media -Path D:\Public\Media
-```
-
-Grant access:
-
-```powershell
-# Grant to every known user
 Grant-SmbShareAccess -Name Media -AccountName Everyone -AccessRight Full -Force
-
-# Include anonymous users
-Grant-SmbShareAccess -Name Media -AccountName "Everyone", "ANONYMOUS LOGON", "Guests" -AccessRight Full -Force
 ```
 
 To remove the share, use:
