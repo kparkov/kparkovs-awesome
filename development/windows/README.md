@@ -109,6 +109,14 @@ choco install azure-data-studio
 choco install firacode
 ```
 
+## Printer (Samsung ML-2525W)
+
+Probably needs an **elevated PS prompt**. Check that the printer IP _is still the same_ before running this.
+
+```ps
+Add-Printer -Name "Samsung ML-2525W" -DriverName "Samsung ML-2525W Series" -PortName "192.168.86.24"
+```
+
 ## SMB shares
 
 To create a new SMB share with full rights to everyone, use **an elevated PS prompt**:
