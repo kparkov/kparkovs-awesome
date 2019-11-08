@@ -16,6 +16,7 @@ brew tap caskroom/cask
 brew upgrade
 
 brew install git
+brew install watch
 brew install wget
 
 # Node (NVM)
