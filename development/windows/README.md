@@ -112,7 +112,7 @@ choco install firacode
 
 ## SMB shares
 
-To create a new SMB share with full rights to everyone, use **an elevated PS prompt**:
+To create a new SMB share with full rights to every authenticated user, use **an elevated PS prompt**:
 
 ```powershell
 # https://sid-500.com/2017/06/26/powershell-how-to-create-file-shares/
