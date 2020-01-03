@@ -27,7 +27,7 @@ choco upgrade chocolatey
 # Global confirmation
 choco feature enable -n allowGlobalConfirmation
 
-# Drivers
+# Geforce drivers
 choco install geforce-experience
 
 # Git
@@ -97,6 +97,7 @@ choco install visualstudio2019professional --package-parameters "--allWorkloads 
 ## IIS (Internet Information Services)
 choco install IIS-WebServerRole IIS-ISAPIFilter IIS-ISAPIExtensions IIS-NetFxExtensibility IIS-ASPNET --source WindowsFeatures
 
+## Invoke-MsBuild is for compiling older .NET (not Core)
 ## [Invoke-MsBuild](https://github.com/deadlydog/Invoke-MsBuild) 
 Install-Module -Name Invoke-MsBuild
 
@@ -107,14 +108,6 @@ choco install azure-data-studio
 
 ## Fonts
 choco install firacode
-```
-
-## Printer (Samsung ML-2525W)
-
-Probably needs an **elevated PS prompt**. Check that the printer IP _is still the same_ before running this.
-
-```ps
-Add-Printer -Name "Samsung ML-2525W" -DriverName "Samsung ML-2525W Series" -PortName "192.168.86.24"
 ```
 
 ## SMB shares
