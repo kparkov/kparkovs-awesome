@@ -69,6 +69,7 @@ choco install qbittorrent
 choco install magicavoxel
 choco install notion
 choco install microsoft-teams
+choco install teamviewer
 
 # Media
 choco install sonos-controller
