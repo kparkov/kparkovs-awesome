@@ -89,6 +89,7 @@ choco install docker-desktop
 choco install docker-compose   # Test if available before installing!
 
 choco install postman
+choco install lepton
 
 ## Visual Studio 2017 Community - minimal install
 ## https://chocolatey.org/packages/VisualStudio2017Community
