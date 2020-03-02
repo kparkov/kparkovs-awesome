@@ -16,11 +16,13 @@ It might be a good idea to modify the general execution policy to allow for exec
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 
-You should probably open a new shell at this point to make sure that `choco` is available. To update `choco` (and test that it is available), do:
+To update `choco` (and test that it is available), do:
 
 ```powershell
 choco upgrade chocolatey
 ```
+
+If it is not available, re-open the shell and re-run the above command.
 
 ### Software installs with Chocolatey
 ```powershell
