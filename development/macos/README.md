@@ -46,6 +46,8 @@ brew cask install visual-studio-code
 brew cask install cryptomator
 brew cask install spotify
 brew cask install adobe-creative-cloud
+brew cask install telegram
+brew cask install signal
 brew cask install discord
 brew cask install qbittorrent
 brew cask install plex-media-player
