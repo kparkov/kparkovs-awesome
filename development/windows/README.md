@@ -70,6 +70,8 @@ choco install magicavoxel
 choco install notion
 choco install microsoft-teams
 choco install teamviewer
+choco install telegram
+choco install signal
 
 # Media
 choco install sonos-controller
