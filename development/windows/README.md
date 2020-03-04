@@ -113,6 +113,7 @@ Install-Module -Name Invoke-MsBuild
 choco install sql-server-express               # Consider outdated?
 choco install sql-server-management-studio     # Consider outdated?
 choco install azure-data-studio
+choco install dbeaver
 
 ## Fonts
 choco install firacode
