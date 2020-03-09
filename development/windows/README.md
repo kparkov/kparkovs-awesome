@@ -136,3 +136,19 @@ Remove-SmbShare -Name Media -Force
 ```
 
 The `-Force` flag is to prevent user confirmation prompts.
+
+## Install a specific .NET Core SDK
+
+This will **not** install the SDK globally, but instead locally (and can be customized using the args). It is possible that it will be used by VS and the `dotnet` cli if it is on the `PATH`.
+
+Download the script to the current directory.
+
+```ps
+Invoke-WebRequest 'https://dot.net/v1/dotnet-install.ps1' -OutFile 'dotnet-install.ps1'
+```
+
+Use the script to download and install a specific version of the framework.
+
+```ps
+./dotnet-install.ps1 -Version '2.1.700'
+```
