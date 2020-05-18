@@ -23,14 +23,12 @@ brew install wget
 touch ~/.bash_profile && chmod 644 ~/.bash_profile
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
 
-# Docker (https://pilsniak.com/how-to-install-docker-on-mac-os-using-brew/)
-brew install docker docker-compose docker-machine xhyve docker-machine-driver-xhyve
-
-## If it says that docker-machine-xhyve has to run as root:
-sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
-sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+# Docker
+brew cask install docker
 
 # virtualbox
+
+brew cask install dotnet-sdk
 
 ## GUI applications
 brew cask install dashlane
