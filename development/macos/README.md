@@ -54,4 +54,5 @@ brew cask install nightowl
 brew cask install notion
 brew cask install azure-data-studio
 brew cask install microsoft-teams
+brew cask install font-fira-code
 ```
