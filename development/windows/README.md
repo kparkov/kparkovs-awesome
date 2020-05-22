@@ -2,7 +2,7 @@
 
 This install procedure has been tested on Microsoft Windows 10.
 
-## Install Chocolatey
+## Chocolatey
 
 Go into an elevated PS prompt and run:
 
@@ -24,7 +24,7 @@ choco upgrade chocolatey
 
 If it is not available, re-open the shell and re-run the above command.
 
-### Software installs with Chocolatey
+### Basic machine setup
 ```powershell
 # Global confirmation
 choco feature enable -n allowGlobalConfirmation
@@ -45,47 +45,49 @@ Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber
 ## To load the profile in all sessions
 Add-PoshGitToProfile -AllHosts
 
-# [ZLocation](https://github.com/vors/ZLocation)
-Install-Module ZLocation -Scope CurrentUser
-
 # Core
 choco install microsoft-windows-terminal
 choco install dashlane
-choco install firefox
 choco install googlechrome
 choco install totalcommander /LocalUser /ShellExtension
 choco install nordvpn
-choco install cryptomator
+choco install google-backup-and-sync
+
+# Node js and some essential cli tools 
+choco install nodejs
+
+# We don't need admin shell for this
+npm i -g trash-cli 
+npm i -g cpy-cli
 
 # VS Code
 ## settings gist: https://gist.github.com/kparkov/19ec6574dc9a55a4fe3607a58b6cf398
 choco install vscode
 
 # Utilities
-choco install adobe-creative-cloud       # Did not work on last install (2019-10-27)
-choco install google-backup-and-sync
-choco install sharex
-choco install qbittorrent
-choco install magicavoxel
-choco install notion
-choco install microsoft-teams
-choco install teamviewer
-choco install telegram
-choco install signal
-
-# Media
-choco install sonos-controller
 choco install spotify
+choco install sonos-controller
+choco install cryptomator
 choco install steam
 choco install discord
+choco install telegram
+choco install signal
+choco install sharex
+choco install teamviewer
 choco install vlc
+choco install adobe-creative-cloud       # Did not work on last install (2019-10-27)
+choco install qbittorrent
+choco install notion
+choco install microsoft-teams
+choco install firefox
 choco install plexmediaplayer
 choco install plexmediaserver
-
-# Development
-choco install nodejs           # Skip if you install VS, which includes this
 choco install python
 choco install golang
+choco install magicavoxel
+
+# Development
+
 
 choco install docker-desktop
 choco install docker-compose   # Test if available before installing!
