@@ -24,6 +24,7 @@
 - [Font Awesome](https://fontawesome.com)
 - [Material Icons](https://material.io/resources/icons/?style=baseline)
 - [Flat Icon](https://www.flaticon.com/)
+- [Ikonate](https://ikonate.com/)
 
 ## Colors
 
