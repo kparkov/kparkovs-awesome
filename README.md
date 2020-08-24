@@ -2,8 +2,7 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 
 ## Machine setup
 
-- [Windows setup](development/windows/README.md)
-- [MacOS setup](development/macos/README.md)
+- [Machine setup](setup/README.md)
 
 ## Programming resources and modules / packages
 
@@ -11,3 +10,7 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 - [.NET](development/csharp/README.md): C# and other .NET.
 - [TS/JS, Node.js, React and Vue](development/javascript/README.md): JS and all its derivatives.
 - [Shell scripting (bash and Powershell)](development/shell/README.md): shell awesomeness.
+
+## Interesting, design, fun
+
+- [Web resources](bookmarks/web.md): websites and web apps.

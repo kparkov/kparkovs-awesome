@@ -1,5 +1,14 @@
 # Website development
 
+## Pens / online sandbox tools
+
+- [JS Fiddle](https://jsfiddle.net/)
+- [CodePen](https://codepen.io/)
+- [JS Bin](https://jsbin.com)
+- [Code Sandbox](https://codesandbox.io/)
+- [.NET Fiddle](https://dotnetfiddle.net/)
+- [Codeanywhere](https://codeanywhere.com/)
+
 ## Fonts
 
 - [Google Fonts](https://fonts.google.com/)
@@ -37,9 +46,3 @@
 
 - [VuePress](https://vuepress.vuejs.org/): static site generator based on Vue, and very appropriate for documentation sites.
 - [Saber](https://saber.land/): Also a Vue based static site generator.
-
-## Inspirational websites
-
-- [My name is Krisztina](http://krisztinatoth.com/)
-- [Pure CSS moustached nanny](https://codepen.io/miocene/pen/mjLPVp)
-- [https://twitter.com/BeresnevOleg](https://twitter.com/BeresnevOleg)

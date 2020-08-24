@@ -33,14 +33,14 @@ Also see the official awesome for [Node.js](https://github.com/sindresorhus/awes
 
 - [sharp](https://github.com/lovell/sharp/blob/master/README.md): image conversion / resizing.
 
-### CLI tools
+### Development of CLI tools
 
 - [yargs](https://www.npmjs.com/package/yargs): parse command-line options.
 - [commander](https://www.npmjs.com/package/commander): full command-line.
 - [inquirer](https://www.npmjs.com/package/inquirer): interface for asking questions in the CLI.
 - [plop](https://plopjs.com/): generator templates, like yeoman, but in-project.
 - [colors](https://github.com/Marak/colors.js): colored CLI output.
-- [shelljs](http://documentup.com/shelljs/shelljs): UNIX shell commands for Node.js
+- [shelljs](http://documentup.com/shelljs/shelljs): UNIX shell commands for Node.js.
 
 ### React
 

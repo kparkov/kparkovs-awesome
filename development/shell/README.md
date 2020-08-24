@@ -1,4 +1,10 @@
-# Shell scripting
+# CLI tools and shell scripting
+
+## CLI tools
+
+- [hashcat](https://hashcat.net/hashcat/): advanced password recovery.
+- [Leasot](https://github.com/pgilad/leasot): TODO and FIXME parser
+- [concurrently](https://www.npmjs.com/package/concurrently): Run multiple processes side by side, and share the console output.
 
 ## Powershell
 
