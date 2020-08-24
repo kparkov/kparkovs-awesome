@@ -72,6 +72,7 @@ choco install microsoft-teams
 choco install teamviewer
 choco install telegram
 choco install signal
+choco install windirstat
 
 # Media
 choco install sonos-controller
