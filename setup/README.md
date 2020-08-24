@@ -26,6 +26,7 @@
     - [Fira Code](#fira-code)
   - [Graphics, office and comms](#graphics-office-and-comms)
     - [Adobe Creative Cloud](#adobe-creative-cloud)
+    - [Journey](#journey)
     - [Magicavoxel](#magicavoxel)
     - [Microsoft Office 365](#microsoft-office-365)
     - [Microsoft Teams](#microsoft-teams)
@@ -305,6 +306,16 @@ _Note that this did not work on last try in Chocolatey (2019-10-27) (checksum er
 ```ps
 choco install adobe-creative-cloud
 brew cask install adobe-creative-cloud
+```
+
+#### Journey
+
+https://journey.cloud/
+
+This app exists for Windows, but not on Chocolatey.
+
+```bash
+brew cask install journey
 ```
 
 #### Magicavoxel
