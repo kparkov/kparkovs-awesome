@@ -16,9 +16,13 @@
 
 - [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
 
-### Roleplaying games
+## Roleplaying games
 
 - [Roll20](https://roll20.net/): online roleplaying platform
 - [D&D Beyond](https://www.dndbeyond.com/): rules, character creation, spell book, etc.
 - [Token stamp](http://rolladvantage.com/tokenstamp/): create tokens from images for use in Roll20 or similar.
 - [Kobold Fight Club](http://kobold.club/fight/#/encounter-builder): encounter builder.
+
+## Science
+
+- [TIMELAPSE OF THE FUTURE: A Journey to the End of Time](https://www.youtube.com/watch?v=uD4izuDMUQA&t=555s): an artistic animation video recounting the fate of the universe.
