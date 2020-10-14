@@ -62,6 +62,11 @@ But also see the [Kickstart Vue project with Bootstrap and TypeScript](howto-typ
 - [Vue Upload Component](https://lian-yue.github.io/vue-upload-component/#/): Upload component.
 - [Vue SVG loader](https://vue-svg-loader.js.org/): SVG to Vue components.
 
+## VuePress
+
+- [VuePress](https://vuepress.vuejs.org/): static site generator.
+- [Awesome VuePress](https://github.com/meteorlxy/awesome-vuepress): the best things for VuePress.
+
 ## Code examples
 
 - [Luhn credit card validation](https://jsbin.com/siyatelayo/edit?html,js,console)

@@ -10,6 +10,7 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 - [.NET](development/csharp/README.md): C# and other .NET.
 - [TS/JS, Node.js, React and Vue](development/javascript/README.md): JS and all its derivatives.
 - [Shell scripting (bash and Powershell)](development/shell/README.md): shell awesomeness.
+- [Uncategorized](development/Uncategorized.md): not belonging to a specific programming language.
 
 ## Interesting, design, fun
 

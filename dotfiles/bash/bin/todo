@@ -1,3 +1,0 @@
-#!/bin/bash
-
-grep --color=always -rniIE "^\s*(\/\/\/*|\/\*|#)\s*(TODO|FIX)" .
