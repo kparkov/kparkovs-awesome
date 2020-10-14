@@ -2,7 +2,7 @@ My personal [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) 
 
 ## Machine setup
 
-- [Machine setup](setup/README.md)
+- [Machine setup](dotfiles/README.md)
 
 ## Programming resources and modules / packages
 
