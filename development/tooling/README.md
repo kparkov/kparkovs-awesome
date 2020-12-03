@@ -1,4 +1,10 @@
-# Website development
+# Tools for design and development
+
+## CLI tools
+
+- [hashcat](https://hashcat.net/hashcat/): advanced password recovery.
+- [Leasot](https://github.com/pgilad/leasot): TODO and FIXME parser
+- [concurrently](https://www.npmjs.com/package/concurrently) runs multiple processes side by side, and share the console output.
 
 ## Pens / online sandbox tools
 
@@ -21,10 +27,11 @@
 
 ## Icons
 
-- [Font Awesome](https://fontawesome.com)
-- [Material Icons](https://material.io/resources/icons/?style=baseline)
 - [Flat Icon](https://www.flaticon.com/)
+- [Font Awesome](https://fontawesome.com)
 - [Ikonate](https://ikonate.com/)
+- [Material Icons](https://material.io/resources/icons/?style=baseline)
+- [The Noun Project](https://thenounproject.com/) collects different icons from users, 3 millions and counting.
 
 ## Colors
 
@@ -47,3 +54,10 @@
 
 - [VuePress](https://vuepress.vuejs.org/): static site generator based on Vue, and very appropriate for documentation sites.
 - [Saber](https://saber.land/): Also a Vue based static site generator.
+
+
+## Bash
+
+### Guides
+
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)

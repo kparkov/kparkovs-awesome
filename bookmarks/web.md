@@ -1,6 +1,31 @@
+Table of contents
+
+- [Art and design](#art-and-design)
+  - [Web design inspiration](#web-design-inspiration)
+  - [Webshops](#webshops)
+- [Entertainment and news](#entertainment-and-news)
+- [Fun](#fun)
+- [Games](#games)
+  - [Computer games](#computer-games)
+  - [Roleplaying games](#roleplaying-games)
+  - [Streams](#streams)
+- [Science](#science)
+  - [Interactive tools](#interactive-tools)
+  - [University](#university)
+  - [Animated educational channels](#animated-educational-channels)
+    - [Lone episodes](#lone-episodes)
+  - [Coronavirus](#coronavirus)
+- [Shopping](#shopping)
+  - [Clothes](#clothes)
+  - [Electronics and hardware](#electronics-and-hardware)
+  - [Food](#food)
+- [Online tools and software](#online-tools-and-software)
+- [Bucket](#bucket)
+
 ## Art and design
 
 - [Behance](https://www.behance.net/): art forum (no webshop).
+- [Uncounted since 1932](https://en.uncounted.ual.ua/) shows the Ukranian 1932 famine as a restaurant menu.
 
 ### Web design inspiration
 
@@ -19,9 +44,15 @@
 
 ## Fun
 
+- [Pointer pointer](https://pointerpointer.com/) shows you an image of someone pointing directly at your mouse cursor.
 - [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
+- [The Useless Web](https://theuselessweb.com/) redirects you to a useless website at the click of a button.
 
 ## Games
+
+### Computer games
+
+- [Factorio online blueprint editor](https://github.com/Teoxoy/factorio-blueprint-editor) for editing Factorio setups and blueprints.
 
 ### Roleplaying games
 
@@ -40,6 +71,8 @@
 ## Science
 
 ### Interactive tools
+
+- [Lightning maps](https://www.lightningmaps.org/) shows realtime lightning strikes around the world.
 - [The Atlas of Moons](https://www.nationalgeographic.com/science/2019/07/the-atlas-of-moons/)
 - [Scale of the Universe](https://htwins.net/scale2/)
 
@@ -54,6 +87,9 @@
 - [Kurzgesagt - In a nutshell](https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q): large scientific and philosophical concepts explained in animations.
   - [The egg](https://www.youtube.com/watch?v=h6fcK_fRYaI&t=2s): a philosophical thought experiment.
   - [The Fermi paradox where are all the aliens?](https://www.youtube.com/watch?v=sNhhvQGsMEc): the paradox explained.
+
+#### Lone episodes
+- [Visualizing 52 factorial](https://www.youtube.com/watch?v=0DSclqnnC2s)
 
 ### Coronavirus
 - [Worldometer: COVID-19 coronavirus pandemic](https://www.worldometers.info/coronavirus/)
@@ -75,16 +111,17 @@
 
 - [Nemlig.com](https://www.nemlig.com): online grocery.
 
+## Online tools and software
+
+- [Let's encrypt](https://letsencrypt.org/) issues free SSL certificates.
+
+
 ## Bucket
 
 - [Linuxserver.io Dockers](https://tools.linuxserver.io/dockers)
 - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-- [Let's encrypt](https://letsencrypt.org/)
 - [TypeScript Starter](https://github.com/bitjson/typescript-starter)
 - [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification)
-- [CSS Deck](http://cssdeck.com/)
-- [Host multiple websites on one VPS with Docker and Nginx](https://blog.ssdnodes.com/blog/host-multiple-websites-docker-nginx/)
-- [Restore a SQL Server database in a Linux Docker container](https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-ver15)
 - [Glances](https://nicolargo.github.io/glances/): cross-platform server monitoring.
 - [Webmin](http://www.webmin.com/)
 - [VS Code](https://code.visualstudio.com/)
